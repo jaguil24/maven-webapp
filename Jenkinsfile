@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from GitHub
-                git 'https://github.com/yourusername/maven-webapp.git'
+                git 'https://github.com/jaguil24/maven-webapp.git'
             }
         }
 
@@ -22,7 +22,8 @@ pipeline {
         // Optionally, add other stages like 'Test' and 'Deploy' if needed
         stage('Test') {
             steps {
-                // Add any test steps you want (optional)
+                
+                // ADDED COMMENT
                 echo "Running tests..."
             }
         }
