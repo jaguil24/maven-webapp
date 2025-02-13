@@ -23,6 +23,7 @@ pipeline {
         stage('Test') {
             steps {
                 // Add any test steps you want (optional)
+                // ADDED COMMENT
                 echo "Running tests..."
             }
         }
